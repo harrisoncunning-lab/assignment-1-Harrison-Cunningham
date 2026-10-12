@@ -1,0 +1,70 @@
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+}
+
+/* Sticky header */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px gray;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fb4f14;
+}
+
+/* Centered main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Content sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top: 4px solid #fb4f14;
+}
