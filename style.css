@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4;
     color: #222;
     margin: 0;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 /* Sticky header */
@@ -35,6 +36,22 @@ nav a {
 
 nav a:hover {
     color: #fb4f14;
+}
+
+/* Theme switcher button */
+#theme-toggle {
+    background-color: #fb4f14;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px;
+}
+
+#theme-toggle:hover {
+    background-color: #d9430c;
 }
 
 /* Centered main content */
@@ -68,3 +85,37 @@ footer {
     padding: 15px;
     border-top: 4px solid #fb4f14;
 }
+
+/* DARK MODE */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #111;
+}
+
+.dark-mode section {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode h2,
+.dark-mode h3 {
+    color: #fb4f14;
+}
+
+.dark-mode footer {
+    background-color: #111;
+    color: white;
+}
+
+.dark-mode nav a {
+    color: white;
+}
+
+.dark-mode a {
+    color: #ff8759;
+}
+
